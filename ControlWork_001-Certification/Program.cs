@@ -20,7 +20,7 @@ class Program
         string[] resultArray = FilterStrings(inputArray);
 
         // Вывод вводных элементов массива
-        Console.WriteLine($"Входной массив: [{string.Join(", ", inputArray)}]");
+        // Console.WriteLine($"Входной массив: [{string.Join(", ", inputArray)}]");
         
         // Вывод нового массива в нужном формате
         Console.WriteLine($"Результат: [{string.Join(", ", resultArray)}]");
@@ -38,7 +38,7 @@ class Program
             }
         }
 
-        // Создание нового массива с учетом длины
+        // Заполнение нового массива с учетом длины
         string[] resultArray = new string[count];
         int index = 0;
         foreach (string str in inputArray)
